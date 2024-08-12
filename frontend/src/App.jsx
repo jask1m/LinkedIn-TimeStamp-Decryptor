@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:4000';
 
 const ExplanationCard = ({ title, content, index }) => (
   <div
@@ -29,7 +30,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await axios.post('http://localhost:4000/', { url });
+      const response = await axios.post(API_URL, { url });
       setTimestamp(response.data);
     } catch (err) {
       setError('Failed to fetch timestamp. Please try again.');
