@@ -1,4 +1,4 @@
-const { extractId, toUnixTimeStamp, getTimeStamp } = require("./utils/helpers");
+const { extractId, toUnixTimeStamp, getTimeStamp } = require("../utils/helpers");
 
 const express = require('express');
 const cors = require('cors');

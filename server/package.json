@@ -2,7 +2,7 @@
   "name": "node-express-simple-boilerplate",
   "version": "1.0.0",
   "description": "Simple Node.js + Express boilerplate project.",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
