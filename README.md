@@ -10,3 +10,6 @@ Notice that amongst the various information, the 19-digit unique identifier asso
 
 ### Algorithm
 This 19-digit id is the key to how we can generate the timestamp. First, we need to develop an algorithm to parse the URL and extract only it's unique id. Then, we will convert this id into binary representation. Why? The original id is an encoded timestamp of when the post was uploaded. If we take the first 41 digits of it's binary representation, this will provide the posts actualy timestamp. We can know simply convert this into a representation that can be interpreted easily.
+
+### Deployed Site URL:
+https://linkedintimestampgenerator.vercel.app/
