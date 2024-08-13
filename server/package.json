@@ -1,8 +1,8 @@
 {
-  "name": "node-express-simple-boilerplate",
+  "name": "node-express-simple-express",
   "version": "1.0.0",
-  "description": "Simple Node.js + Express boilerplate project.",
-  "main": "api/index.js",
+  "description": "ExpressJS server ",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -10,7 +10,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1"
   },
-  "author": "Omar Muscatello",
+  "author": "Jason",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.4"
